@@ -8,7 +8,7 @@ body {
 
 .row {
   position: absolute;
-  width: 98%;
+  width: 100vw;
 }
 
 h1 {
