@@ -1,0 +1,82 @@
+body {
+  font-family: "Corbel", sans-serif;
+}
+
+#header-nav {
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar-header {
+  background-color: #a0a0a0;
+  width: 100vw;
+}
+
+.navbar-default {
+  background-color: #cacaca;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid #333333;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333333;
+}
+
+a {
+  font-size: 2rem;
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+section {
+  background-color: #a0a0a0;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  margin: 1rem;
+  font-size: 1.7rem;
+}
+
+/* ~~~~~~~~ Responsive ~~~~~~~~ */
+
+/* SM */
+
+@media (min-width:768px) and (max-width:991px) {
+  nav div.container-fluid {
+    padding: 0;
+  }
+
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+}
+
+/* MD */
+
+@media (min-width:992px) {
+  nav div.container-fluid {
+    padding: 0;
+  }
+
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+}
